@@ -1,0 +1,24 @@
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+    <title>JS Example</title>
+    <link rel="stylesheet" type="text/css" href="index.css" />
+    <script src="app.js"></script>
+  </head>
+
+  <body>
+    <div id="container">
+      <h1>Inserisci la data da visualizzare</h1>
+      <form name="dateForm" id="dateForm" onsubmit="return checkDate()">
+        <label>Scegli una data compresa tra 01/11/2019 e 01/02/2020 ad esclusione di sabati e domeniche:</label><br><br>
+        <input type="date" id="date" min="2019-11-01" max="2020-02-01">
+        <input type="submit" name="invia">
+      </form>
+    </div>
+  </body>
+</html>
+
